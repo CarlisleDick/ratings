@@ -11,7 +11,7 @@
 
 			echo "Hello World!";
 
-			$myfile = fopen("file.csv","a+"); or die("Unable to open file!");
+			$myfile = fopen("file.csv","a+") or die("Unable to open file!");
 			$size = $_REQUEST['size'];
 			$rating = $_REQUEST['rating'];
 			$gender = $_REQUEST['gender'];
